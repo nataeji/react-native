@@ -12,7 +12,7 @@ RequestApi.interceptors.request.use(
     //const accessToken = `Bearer ${await EncryptedStorage.getItem("accessToken")}`;
     //const refreshToken = `Bearer ${await EncryptedStorage.getItem("refreshToken")}`;
     //영화사이트 데이터 가져오기.
-    const accessToken = `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNDA4YTk2YTIyMWRkN2FlM2Q1Yjc2M2QwNzI1MTQ5ZSIsInN1YiI6IjYyNDYwYTI4ZGQ0N2UxMDA5ZjQ1MmJkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2lgE2Fw_MsENdIFVgRt3r7RvMplmbxa3PoDPHjy-IOU`;
+    const accessToken = ``;
     const refreshToken = `Bearer ${await EncryptedStorage.getItem("refreshToken")}`;
     console.log("config.url : ", config.url);
 
